@@ -1,0 +1,8 @@
+a = ['1', 'a', 'b', '2']
+b = []
+for elem in a:
+    num = '01234556789'
+    if elem in num:
+        b.append(int(elem))
+        
+print(b)
