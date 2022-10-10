@@ -1,0 +1,6 @@
+inlet = "key1=val1 \t key2=val2"
+mass = inlet.split(' \t ')
+dict_mass = {}
+for elem in mass:
+    dict_mass[elem.split('=')[0]] = elem.split('=')[1]
+print(dict_mass)
